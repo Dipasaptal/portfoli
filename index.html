@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DipaSaptal Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <!--Navbar start-->
+    <div>
+    <nav class="navbar navbar-expand-lg navbar-light color-white container-fluid">
+    <div class="container ">
+            <a class="index text-white" href="index1.html">Dipa Saptal</a>
+        <div class="collapse navbar-collapse navbarExample02" id="navbarExample01">
+            <ul class="navbar-nav ms-5 mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="About.html">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="Resume.html">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="Project.html">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="Contact.html">Contact</a>
+              </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    </div>
+     <!--navbar complete-->
+       
+        <div class="row ">
+            <div class="col-6 ms-5 div2">
+                <div class="card">
+                <div class="card-body"> 
+                <p class="mt-5 text-white">HELLO!</p>
+                <h1 class="text-white">I'm <span class="text-warning" style="font-weight: 1000; font-size: 50px;">Dipa</span></h1>
+                <h1 class="text-warning" style="font-weight: 1000; font-size: 50px;">Saptal</h1>
+                <span id="typing-animation">
+                   
+                </span>
+                <script>
+                            // Initialize the typing animation
+                            const typingAnimationElement = document.getElementById('typing-animation');
+    
+                            // Create an array of typing text
+                            const typingTexts = [
+                            'Software Engineer  ',
+                            'Front-End Developer  ',
+                            'React.js/React Native Developer ',
+                            'BTech CSE   ',
+                            ];
+    
+                            // Create a function to display the typing animation for a given text
+                            function playTypingAnimation(text) {
+                            // Loop through each character and add it to the element
+                            for (let i = 0; i < text.length; i++) {
+                                setTimeout(() => {
+                                typingAnimationElement.textContent += text[i];
+                                }, i * 200); // Increase the delay to slow down the typing animation
+                            }
+    
+                            // Once the animation is complete, reset the text and start over
+                            setTimeout(() => {
+                                typingAnimationElement.textContent = '';
+                                playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+                            }, text.length * 200);
+                            }
+    
+                            // Start the typing animation loop
+                            playTypingAnimation(typingTexts[0]);
+    
+                        </script>	
+                <h1 class="text-white frontend">Front-End Developer</h1>
+                <a href="https://www.linkedin.com/in/dipa-saptal-86ba301a6" class="btn btn-primary py-3 px-4 rounded-pill gap-4 border border-white mt-3">LinkedIn</a>
+                <a href="https://github.com/Dipasaptal?query=is%3Aopen&tab=projects" class="btn btn-warning btn-outline-white py-3 px-4 rounded-pill border border-white mt-3">Github</a>
+                    </div>
+                </div>
+            </div> 
+            <div class="col-4">
+                <div class="card">
+                  <div class="card-body">
+                      <img src="C:\Users\dipas\OneDrive\Desktop\dipa.jpeg" class="card-img w-75 h-75" alt="...">
+                  </div>
+                </div>
+              </div>
+            </div>
+       <!--Home Complete--> 
+
+       <!--About Start-->
+  <div class="d-flex bd-highlight text-white container-fluid">
+  <div class="p-2 flex-fill bd-highlight mt-5">
+    <img src="C:\Users\dipas\OneDrive\Desktop\dipa.jpeg" class="card-img1 h-50 w-50" alt="...">
+
+  </div>
+  <div class="p-2 flex-fill bd-highlight mt-5">
+    <h6 class="card-title mt-3 ">Name: Dipa Saptal</h6>
+    <p class="mt-2 ">Interested Roles: Front-end Developer</p>
+    <p class="fw-bold">Experience:-</p><p> Worked as a React.js Developer at Z-Plus Cyber Secure Technology, Pune (Feb 2025–Present), and as a Front-End Development Intern at SevenMentor Pvt. Ltd, Pune (2024), where I developed responsive web applications and Android apps using React.js and React Native. Improved site performance and user engagement through reusable components and API integration, while collaborating with cross-functional teams to deliver scalable, user-centric solutions.</p>
+    <p class="fw-bold">Address:-</p><p> Shivajinagar Pune</p>
+   
+  </div>
+  <div class="p-2 flex-fill bd-highlight gap-4 mt-5 ms-5 about">
+    <h1 class="card-title mb-2">About Me</h1>
+    <p>Hello! I'm Dipa, passionate about web development with a B.Tech in Computer Science Engineering from Dr. D.Y. Patil Pratishthan's College of Engineering, Kolhapur. I completed a 5-month internship as a Front-End Developer at SevenMentor Pvt. Ltd., Pune, and currently working as a React.js Developer at Z-Plus Cyber Secure Technology, Pune. I've gained hands-on experience in building responsive web applications and Android apps using React.js and React Native. I'm confident in taking on new challenges and have a proven ability to quickly learn and apply new technologies to solve real-world problems.</p>
+   
+    <p class="mt-3">
+      <table>
+        <tr><td class="fw-bold">Profile: </td><td> Front-End Developer</td></tr>
+        <tr><td class="fw-bold">Domain: </td><td> Front-End Web Development </td></tr>
+        <tr><td class="fw-bold">Education: </td><td> Btech Computer Science Engineering.</td></tr>
+        <tr><td class="fw-bold">IDE: </td><td>Visual Studio Code.</td></tr>
+      </table>
+    </p>
+  </div>
+</div>
+<div class="text-white mb-5 container-fluid skk">
+  <p class="ms-5 fw-bold">skill:</p>
+  <p class="ms-5">HTML5</p>
+  <div class="progress prgg">
+    <div class="progress-bar prgg bg-warning" role="progressbar" style="width: 95%;"  aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+  </div>
+  </div>
+  <p class="ms-5">CSS3</p>
+  <div class="progress prgg">
+    <div class="progress-bar prgg bg-warning" role="progressbar" style="width: 95%;"  aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+  </div>
+  </div>
+  <p class="ms-5">Javascript</p>
+  <div class="progress prgg">
+    <div class="progress-bar prgg bg-warning" role="progressbar" style="width: 95%;"  aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+  </div>
+  </div>
+  <p class="ms-5">Bootstrap</p>
+  <div class="progress prgg">
+    <div class="progress-bar prgg bg-warning" role="progressbar" style="width: 95%;"  aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+  </div>
+  </div>
+  <p class="ms-5">JSON</p>
+  <div class="progress prgg">
+    <div class="progress-bar prgg bg-warning" role="progressbar" style="width: 95%;"  aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+  </div>
+  </div>
+  <p class="ms-5">jQery</p>
+  <div class="progress prgg">
+    <div class="progress-bar prgg bg-warning" role="progressbar" style="width: 95%;"  aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+  </div>
+  </div>
+  <p class="ms-5">React.js</p>
+  <div class="progress prgg">
+    <div class="progress-bar prgg bg-warning" role="progressbar" style="width: 95%;"  aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+  </div>
+  </div>
+  <!--About Complete-->
+
+  <!--Resume start-->
+  <div class="mt-5 bigg ">
+    <h1 class="big biggg big-2 mt-5  rss">Resume</h1>
+    <h2 class="Resume">Resume</h2>
+    <p class="mt-2 rss2">I"am a 2023 passout Graduate of the Shivaji University of kolhapur, with a degree in Computer Science Engineering. <br>I have a strong passion for web development and have been building websites and web applications. I am Proficient in <span class="rss3 mt-3">HTML5,CSS3,Javascript,Bootstrap,Json,JQuery,React.js</span></p>
+    <a href="C:\Users\dipas\OneDrive\Desktop\Dipa resume.pdf" class="btn btn-primary py-3 px-4 rss4" target="_blank">Check My Resume </a>
+  </div>
+  <!--Resume End-->
+  <div class="row mt-5">
+  <h1 class="big-4 text-white big4">Education</h>
+    <div class="">
+
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <span class="date" style="font-weight: 900;font-size: 26px;color: #ffbd39;">Passing Year-2023</span>
+        <h2>Bachelor of Computer Science Engineering</h2>
+        <span class="position" style="font-size: 14px;font-weight: 600;letter-spacing: 3px;text-transform: uppercase; color: gray;"> Sivaji University of Kolhpur</span>
+        <p class="mt-4" style="font-size: 14px;font-weight: 600;letter-spacing: 3px;text-transform: uppercase; color: gray; margin-top: 1.5rem !important;">Percentage/CGPA: 74.4%</p>
+      </div>
+      <div class="col">
+        <span class="date" style="font-weight: 900;font-size: 26px;color: #ffbd39;">Passing Year-2020</span>
+        <h2>Diploma In Computer Science Engineering</h2>
+        <span class="position" style="font-size: 14px;font-weight: 600;letter-spacing: 3px;text-transform: uppercase; color: gray;"> Maharashtra State Board of Technical Education (MSBTE)</span>
+        <p class="mt-4" style="font-size: 14px;font-weight: 600;letter-spacing: 3px;text-transform: uppercase; color: gray; margin-top: 1.5rem !important;">Percentage/CGPA: 70.69%</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <span class="date" style="font-weight: 900;font-size: 26px;color: #ffbd39;">Passing Year-2016</span>
+        <h2>H.S.C(Science)</h2>
+        <span class="position" style="font-size: 14px;font-weight: 600;letter-spacing: 3px;text-transform: uppercase; color: gray;">Kolhapur Board</span>
+        <p class="mt-4" style="font-size: 14px;font-weight: 600;letter-spacing: 3px;text-transform: uppercase; color: gray; margin-top: 1.5rem !important;">Percentage/CGPA: 49.23%</p>
+      </div>
+      <div class="col">
+        <span class="date" style="font-weight: 900;font-size: 26px;color: #ffbd39;">Passing Year-2020</span>
+        <h2>S.S.C</h2>
+        <span class="position" style="font-size: 14px;font-weight: 600;letter-spacing: 3px;text-transform: uppercase; color: gray;">Kolhapur Board</span>
+        <p class="mt-4" style="font-size: 14px;font-weight: 600;letter-spacing: 3px;text-transform: uppercase; color: gray; margin-top: 1.5rem !important;">Percentage/CGPA: 76.60%</p>
+      </div>
+    </div>
+      <!--Project start-->
+      <div class="text-white mt-5">
+        <h1 class="big big-2 bigggg">Projects</h1>
+        <p>Analytical, and self-driven Programmer building user-facing applications.Efficient and knowledgeable coder with <br><span class="ms-5">skills in HTML,CSS,Javascript, Bootstrap,Json,Jquery,React.js, programming language.</span></p>
+      </div>
+
+      <div class="row project container-fluid">
+        <div class="col-sm-4 ms-0">
+          <div class="card">
+            <div class="card-body">
+              <div class="card text-white mt-5 ms-5" style="width: 18rem;">
+                <img src="C:\Users\dipas\OneDrive\Desktop\Capture.PNG" class="card-img-top zoom-effect" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Fruitables and Vegetables E-commerce Website</h5>
+                  <p class="card-text">"Fruitables and Vegetables" is an e-commerce website designed to revolutionize the way you shop for fresh fruits and vegetables online store.</p>
+                  <p class="card-text"><span class="fw-bold">Front-End:</span> HTML5,CSS3,Javascript,Bootstrap,Json,JQuery. etc</p>
+                  <p class="card-text"><span class="fw-bold">Software Tools:</span> Visual Studio Code.</p>
+                  <a href="https://github.com/Dipasaptal/Fruitables-and-vegetables-project-.git" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="card text-white mt-5 ms-5" style="width: 18rem;">
+                <img src="C:\Users\dipas\OneDrive\Desktop\academics-management-img.png" class="card-img-top zoom-effect" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Computer Institute Management System</h5>
+                  <p class="card-text">"Computer Institute Management System" is a creating and Organizing events for student and staff registration and manage courses. all the facilities will be added,deleted,and updated.</p>
+                  <p class="card-text"><span class="fw-bold">Front-End:</span> Visual Studio 2010 Professional etc.</p>
+                  <p class="card-text"><span class="fw-bold">Back-End:</span> My SQL Server</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="card text-white mt-5 ms-5" style="width: 18rem;">
+                <img src="C:\Users\dipas\OneDrive\Desktop\pendrive.jpeg" class="card-img-top zoom-effect" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Pendrive Detection</h5>
+                  <p class="card-text">"Pendrive Detection" is a program which detects whether the pendrive is connected to the system through Usb Port or not. If the pendrive is connect it gives the details of pendrive. Also we can eject the pendrive connected through this program.</p>
+                  <p class="card-text"><span class="fw-bold">Front-End:</span> Visual Basic 2010 etc</p>
+                  <p class="card-text"><span class="fw-bold">Framework:</span> Asp.Net 4.0 </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Project Complete-->
+      <div class="row justify-content-center more mt-5">
+        <div class="col-md-7 ftco-animate text-center fadeInUp ftco-animated">
+          <h2 class="moree">More projects on </h2>
+          <h2><span style="color: #ffbd39; font-size: 40px;font-weight: 900;"> Github  </span></h2>
+          <div class="heading"> <h4> I love to solve business problems &amp; uncover hidden data stories </h4>
+          <br>
+          <p><a href="https://github.com/Dipasaptal?query=is%3Aopen&tab=projects" class="btn btn-primary py-3 px-5">GitHub</a></p>
+          </div>
+        </div>
+      </div>
+      <!--More Projects on Complete-->
+      <!--Contact Start-->
+      <div class="col-md-7 heading-section text-center ms-5 mt-5">
+        <h1 class="big big-2" style="font-size: 7vw;color: rgba(255, 255, 255, 0.1);z-index: -1;font-weight: 900;">Contact</h1>
+        <h2 class="mb-4 ">Contact Me</h2>
+
+        <div class="container">
+          <div class="row align-items-start">
+            <div class="col">
+              <h3 class="mt-2" style="font-size: 17px;font-weight: 500;text-transform: uppercase;">Current Address</h3>
+              <p>Shivajinagar Pune, INDIA</p>
+            </div>
+            <div class="col">
+              <h3 class="mt-2" style="font-size: 17px;font-weight: 500;text-transform: uppercase;">Contact Number</h3>
+              <p style="font-size: 17px;font-weight: 500;text-transform: uppercase;"><a class="mt-5" href="tel://0101010101">+91-8830670545</a></p>
+            </div>
+            <div class="col">
+              <h3 class="mt-2" style="font-size: 17px;font-weight: 500;text-transform: uppercase;">Email Address</h3>
+            <p><a href="dipasaptal@gmail.com">dipasaptal@gmail.com</a></p>
+            </div>
+          </div>
+      </div>
+  </div>
+
+
+
+
+
+</body>
+</html>

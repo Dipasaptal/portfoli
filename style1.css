@@ -1,0 +1,40 @@
+
+*
+{
+    background-color: black;
+}
+.big
+{
+    
+    color: grey;
+    opacity: 30%;
+    font-size: 7vw;
+    font-weight: 900;
+    text-align: center;
+    margin-right: 25%;
+
+   
+}
+.Resume
+{
+    margin-bottom: 0%;
+    margin-left: 30%;
+}
+.bigg
+{
+    margin-top: 30%;
+    margin-right: 5%;
+    background-color: black;
+}
+.rss2
+{
+    line-height: 1.5rem;
+}
+.rss3
+{
+    margin-left: 20%;
+}
+.rss4
+{
+    margin-left: 27%;
+}
